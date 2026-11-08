@@ -1,0 +1,1683 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>鉴黄师官方入口-鉴黄师工作内容_鉴黄师兼职平台_鉴黄师入门指南</title>
+  <meta name="description" content="鉴黄师官方入口提供鉴黄师工作内容、兼职平台与入门指南，涵盖审核流程、心理建设与职业发展，适合想从事内容安全审核或寻找兼职的用户参考。">
+  <meta name="keywords" content="内容审核员,鉴黄师兼职,鉴黄师工作内容,鉴黄师入门,内容安全审核">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231e2a3a'/%3E%3Cpath d='M32 12L8 24v16l24 12 24-12V24L32 12z' fill='%23e6b422' opacity='0.9'/%3E%3Ccircle cx='32' cy='32' r='8' fill='%23ffffff'/%3E%3C/svg%3E">
+  <script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --bg: #f7f8fa;
+      --panel: #ffffff;
+      --ink: #1c2a3a;
+      --ink-soft: #3e4d5e;
+      --muted: #6b7a8c;
+      --line: #e2e6ec;
+      --brand: #1e2a3a;
+      --brand-soft: #2f4058;
+      --accent: #c8962e;
+      --accent-soft: #f5e9d4;
+      --danger-soft: #fce8e8;
+      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.03);
+      --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.05), 0 2px 6px rgba(0, 0, 0, 0.03);
+      --radius-sm: 6px;
+      --radius-md: 10px;
+      --radius-lg: 14px;
+      --font-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+      --announce-h: 40px;
+      --header-h: 64px;
+      --nav-h: 48px;
+      --sticky-offset: calc(var(--announce-h) + var(--header-h) + var(--nav-h) + 12px);
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: var(--sticky-offset);
+    }
+
+    body {
+      font-family: var(--font-base);
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      padding-top: calc(var(--announce-h) + var(--header-h));
+    }
+
+    /* 吸顶公告条 */
+    .announce-bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: var(--announce-h);
+      background: linear-gradient(90deg, #1e2a3a 0%, #2f4058 100%);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.875rem;
+      letter-spacing: 0.3px;
+      z-index: 1001;
+      padding: 0 1rem;
+      text-align: center;
+    }
+
+    .announce-bar a {
+      color: var(--accent);
+      text-decoration: none;
+      margin-left: 12px;
+      border-bottom: 1px dashed var(--accent);
+      font-weight: 500;
+    }
+
+    .announce-bar a:hover {
+      color: #fff;
+      border-bottom-color: #fff;
+    }
+
+    /* 吸顶页头 */
+    .site-header {
+      position: fixed;
+      top: var(--announce-h);
+      left: 0;
+      right: 0;
+      height: var(--header-h);
+      background: var(--panel);
+      border-bottom: 1px solid var(--line);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .header-inner {
+      max-width: 1360px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+    }
+
+    .brand-area {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+
+    .brand-icon {
+      width: 36px;
+      height: 36px;
+      flex-shrink: 0;
+    }
+
+    .brand-text {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--brand);
+      letter-spacing: -0.3px;
+      white-space: nowrap;
+    }
+
+    .header-nav {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      flex: 1;
+      justify-content: flex-end;
+    }
+
+    .header-nav a {
+      font-size: 0.875rem;
+      color: var(--ink-soft);
+      text-decoration: none;
+      padding: 6px 12px;
+      border-radius: 20px;
+      transition: background 0.2s, color 0.2s;
+      white-space: nowrap;
+    }
+
+    .header-nav a:hover,
+    .header-nav a:focus-visible {
+      background: var(--accent-soft);
+      color: var(--brand);
+    }
+
+    .header-search {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+
+    .header-search input {
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 6px 14px;
+      font-size: 0.8rem;
+      width: 160px;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: inherit;
+      outline: none;
+      transition: border 0.2s;
+    }
+
+    .header-search input:focus {
+      border-color: var(--accent);
+    }
+
+    .header-search button {
+      background: var(--brand);
+      color: #fff;
+      border: none;
+      border-radius: 20px;
+      padding: 6px 14px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      font-family: inherit;
+      transition: background 0.2s;
+    }
+
+    .header-search button:hover {
+      background: var(--brand-soft);
+    }
+
+    /* 频道导航（移动端/首屏下） */
+    .channel-nav {
+      background: var(--panel);
+      border-bottom: 1px solid var(--line);
+      height: var(--nav-h);
+      display: flex;
+      align-items: center;
+      position: sticky;
+      top: calc(var(--announce-h) + var(--header-h));
+      z-index: 999;
+      overflow-x: auto;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+
+    .channel-nav::-webkit-scrollbar {
+      display: none;
+    }
+
+    .channel-inner {
+      max-width: 1360px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      width: 100%;
+    }
+
+    .channel-inner a {
+      font-size: 0.85rem;
+      color: var(--ink-soft);
+      text-decoration: none;
+      padding: 6px 14px;
+      border-radius: 20px;
+      white-space: nowrap;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    .channel-inner a:hover,
+    .channel-inner a:focus-visible {
+      background: var(--accent-soft);
+      color: var(--brand);
+    }
+
+    /* 首屏 */
+    .hero {
+      background: linear-gradient(135deg, #f0f3f8 0%, #e2e8f2 100%);
+      padding: 2rem 0 2.5rem;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .hero-inner {
+      max-width: 1360px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 2.5rem;
+      flex-wrap: wrap;
+    }
+
+    .hero-content {
+      flex: 1 1 380px;
+      min-width: 280px;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      background: var(--accent-soft);
+      color: #7a5c1a;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 0.75rem;
+      letter-spacing: 0.5px;
+    }
+
+    .hero h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: var(--brand);
+      line-height: 1.25;
+      margin-bottom: 0.6rem;
+      letter-spacing: -0.5px;
+    }
+
+    .hero-desc {
+      font-size: 1rem;
+      color: var(--ink-soft);
+      max-width: 580px;
+      margin-bottom: 1.2rem;
+      line-height: 1.65;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      background: var(--brand);
+      color: #fff;
+      border: none;
+      padding: 10px 22px;
+      border-radius: 30px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: inherit;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: background 0.2s;
+    }
+
+    .btn-primary:hover {
+      background: var(--brand-soft);
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--brand);
+      border: 1.5px solid var(--brand);
+      padding: 9px 22px;
+      border-radius: 30px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: inherit;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    .btn-outline:hover {
+      background: var(--brand);
+      color: #fff;
+    }
+
+    .hero-visual {
+      flex: 0 0 260px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hero-visual svg {
+      width: 100%;
+      max-width: 260px;
+      height: auto;
+    }
+
+    /* 主容器 */
+    .main-wrapper {
+      max-width: 1360px;
+      margin: 0 auto;
+      padding: 1.5rem 1.5rem 2.5rem;
+      display: grid;
+      grid-template-columns: 180px 1fr 240px;
+      gap: 1.5rem;
+      align-items: start;
+    }
+
+    /* 左栏 */
+    .left-sidebar {
+      background: var(--panel);
+      border-radius: var(--radius-md);
+      padding: 1rem 0.75rem;
+      box-shadow: var(--shadow-sm);
+      position: sticky;
+      top: calc(var(--announce-h) + var(--header-h) + var(--nav-h) + 12px);
+    }
+
+    .sidebar-title {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--muted);
+      padding: 0 6px;
+      margin-bottom: 0.5rem;
+    }
+
+    .sidebar-nav {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .sidebar-nav a {
+      display: block;
+      padding: 6px 10px;
+      font-size: 0.82rem;
+      color: var(--ink-soft);
+      text-decoration: none;
+      border-radius: var(--radius-sm);
+      transition: background 0.15s, color 0.15s;
+      border-left: 2px solid transparent;
+    }
+
+    .sidebar-nav a:hover,
+    .sidebar-nav a:focus-visible {
+      background: var(--accent-soft);
+      color: var(--brand);
+      border-left-color: var(--accent);
+    }
+
+    .sidebar-nav a.active {
+      background: var(--accent-soft);
+      color: var(--brand);
+      font-weight: 600;
+      border-left-color: var(--accent);
+    }
+
+    .sidebar-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin-top: 0.75rem;
+      padding-top: 0.75rem;
+      border-top: 1px solid var(--line);
+    }
+
+    .sidebar-tags a {
+      font-size: 0.7rem;
+      background: var(--bg);
+      color: var(--ink-soft);
+      padding: 3px 8px;
+      border-radius: 12px;
+      text-decoration: none;
+      border: 1px solid var(--line);
+      transition: background 0.15s, border-color 0.15s;
+    }
+
+    .sidebar-tags a:hover {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+      color: var(--brand);
+    }
+
+    /* 中栏 */
+    .center-main {
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .section-card {
+      background: var(--panel);
+      border-radius: var(--radius-md);
+      padding: 1.25rem 1.5rem;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--line);
+    }
+
+    .section-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--brand);
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      letter-spacing: -0.3px;
+    }
+
+    .section-title::before {
+      content: '';
+      display: inline-block;
+      width: 4px;
+      height: 18px;
+      background: var(--accent);
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+
+    .section-subtitle {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 1rem;
+      line-height: 1.6;
+    }
+
+    /* 热门推荐卡片网格 */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 12px;
+    }
+
+    .content-card {
+      background: var(--bg);
+      border-radius: var(--radius-sm);
+      padding: 0.9rem;
+      border: 1px solid var(--line);
+      transition: box-shadow 0.2s, border-color 0.2s;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .content-card:hover {
+      box-shadow: var(--shadow-md);
+      border-color: #cdd4de;
+    }
+
+    .card-tag {
+      display: inline-block;
+      font-size: 0.65rem;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 10px;
+      background: var(--accent-soft);
+      color: #7a5c1a;
+      width: fit-content;
+      letter-spacing: 0.2px;
+    }
+
+    .card-title {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--brand);
+      line-height: 1.35;
+    }
+
+    .card-desc {
+      font-size: 0.78rem;
+      color: var(--ink-soft);
+      line-height: 1.5;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .card-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.68rem;
+      color: var(--muted);
+      margin-top: auto;
+      padding-top: 4px;
+      border-top: 1px dashed var(--line);
+      gap: 4px;
+    }
+
+    .card-meta span {
+      display: flex;
+      align-items: center;
+      gap: 2px;
+    }
+
+    /* 最新更新列表 */
+    .update-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .update-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 8px 0;
+      border-bottom: 1px dashed var(--line);
+      font-size: 0.85rem;
+    }
+
+    .update-list li:last-child {
+      border-bottom: none;
+    }
+
+    .update-time {
+      flex-shrink: 0;
+      font-size: 0.7rem;
+      color: var(--muted);
+      background: var(--bg);
+      padding: 2px 8px;
+      border-radius: 10px;
+      margin-top: 2px;
+      white-space: nowrap;
+    }
+
+    .update-list strong {
+      font-weight: 600;
+      color: var(--brand);
+    }
+
+    .update-list p {
+      color: var(--ink-soft);
+      font-size: 0.8rem;
+      margin-top: 2px;
+    }
+
+    /* 分类入口 */
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+      gap: 8px;
+    }
+
+    .category-item {
+      background: var(--bg);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-sm);
+      padding: 10px 12px;
+      text-decoration: none;
+      color: var(--brand);
+      font-size: 0.82rem;
+      font-weight: 600;
+      text-align: center;
+      transition: background 0.15s, border-color 0.15s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    .category-item:hover {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+    }
+
+    /* 深度解析正文 */
+    .deep-dive h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--brand);
+      margin-top: 1.2rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .deep-dive h3:first-of-type {
+      margin-top: 0.2rem;
+    }
+
+    .deep-dive p {
+      font-size: 0.88rem;
+      color: var(--ink-soft);
+      margin-bottom: 0.65rem;
+      line-height: 1.7;
+    }
+
+    .deep-dive ul {
+      margin: 0.5rem 0 0.8rem 1.2rem;
+      font-size: 0.85rem;
+      color: var(--ink-soft);
+    }
+
+    .deep-dive ul li {
+      margin-bottom: 0.3rem;
+    }
+
+    /* FAQ */
+    .faq-list {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .faq-item {
+      border: 1px solid var(--line);
+      border-radius: var(--radius-sm);
+      background: var(--bg);
+      overflow: hidden;
+    }
+
+    .faq-item summary {
+      padding: 10px 14px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--brand);
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: background 0.15s;
+    }
+
+    .faq-item summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .faq-item summary::after {
+      content: '+';
+      font-size: 1.1rem;
+      color: var(--accent);
+      font-weight: 400;
+      transition: transform 0.2s;
+    }
+
+    .faq-item[open] summary::after {
+      content: '−';
+    }
+
+    .faq-item summary:hover,
+    .faq-item summary:focus-visible {
+      background: var(--accent-soft);
+    }
+
+    .faq-answer {
+      padding: 0 14px 12px;
+      font-size: 0.83rem;
+      color: var(--ink-soft);
+      line-height: 1.7;
+    }
+
+    /* 用户评论 */
+    .comment-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-height: 360px;
+      overflow-y: auto;
+      padding-right: 4px;
+    }
+
+    .comment-item {
+      background: var(--bg);
+      border-radius: var(--radius-sm);
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+    }
+
+    .comment-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 4px;
+    }
+
+    .comment-avatar {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: var(--accent-soft);
+      color: #7a5c1a;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.7rem;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    .comment-name {
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--brand);
+    }
+
+    .comment-date {
+      font-size: 0.65rem;
+      color: var(--muted);
+      margin-left: auto;
+    }
+
+    .comment-text {
+      font-size: 0.8rem;
+      color: var(--ink-soft);
+      line-height: 1.6;
+    }
+
+    /* 相关资讯 */
+    .news-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .news-item {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      padding-bottom: 10px;
+      border-bottom: 1px dashed var(--line);
+    }
+
+    .news-item:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    .news-date {
+      flex-shrink: 0;
+      font-size: 0.7rem;
+      color: var(--muted);
+      background: var(--bg);
+      padding: 2px 8px;
+      border-radius: 10px;
+      margin-top: 2px;
+    }
+
+    .news-content {
+      flex: 1;
+    }
+
+    .news-content strong {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--brand);
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    .news-content p {
+      font-size: 0.78rem;
+      color: var(--ink-soft);
+      line-height: 1.5;
+    }
+
+    /* 相关推荐标签 */
+    .rec-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .rec-tags a {
+      font-size: 0.78rem;
+      background: var(--bg);
+      border: 1px solid var(--line);
+      padding: 5px 14px;
+      border-radius: 20px;
+      color: var(--ink-soft);
+      text-decoration: none;
+      transition: background 0.15s, border-color 0.15s, color 0.15s;
+    }
+
+    .rec-tags a:hover {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+      color: var(--brand);
+    }
+
+    /* 创作者证言/引语 */
+    .quote-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 10px;
+    }
+
+    .quote-card {
+      background: var(--bg);
+      border-left: 3px solid var(--accent);
+      border-radius: var(--radius-sm);
+      padding: 10px 12px;
+      font-size: 0.82rem;
+      color: var(--ink-soft);
+      line-height: 1.6;
+    }
+
+    .quote-author {
+      margin-top: 6px;
+      font-size: 0.7rem;
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    /* 右栏 */
+    .right-sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      position: sticky;
+      top: calc(var(--announce-h) + var(--header-h) + var(--nav-h) + 12px);
+    }
+
+    .sidebar-card {
+      background: var(--panel);
+      border-radius: var(--radius-md);
+      padding: 1rem;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--line);
+    }
+
+    .sidebar-card h4 {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--brand);
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.3px;
+    }
+
+    .toc-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .toc-list a {
+      display: block;
+      font-size: 0.75rem;
+      color: var(--ink-soft);
+      text-decoration: none;
+      padding: 4px 8px;
+      border-radius: var(--radius-sm);
+      transition: background 0.15s, color 0.15s;
+      border-left: 2px solid transparent;
+    }
+
+    .toc-list a:hover {
+      background: var(--accent-soft);
+      color: var(--brand);
+      border-left-color: var(--accent);
+    }
+
+    .hot-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .hot-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 6px;
+      font-size: 0.78rem;
+      color: var(--ink-soft);
+      line-height: 1.4;
+    }
+
+    .hot-index {
+      flex-shrink: 0;
+      width: 18px;
+      height: 18px;
+      border-radius: 4px;
+      background: var(--bg);
+      color: var(--muted);
+      font-size: 0.65rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 1px;
+    }
+
+    .hot-index.top3 {
+      background: var(--accent-soft);
+      color: #7a5c1a;
+    }
+
+    .hot-list a {
+      color: var(--ink-soft);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+
+    .hot-list a:hover {
+      color: var(--brand);
+      text-decoration: underline;
+    }
+
+    .extend-links {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .extend-links a {
+      font-size: 0.75rem;
+      color: var(--ink-soft);
+      text-decoration: none;
+      padding: 4px 6px;
+      border-radius: var(--radius-sm);
+      transition: background 0.15s, color 0.15s;
+    }
+
+    .extend-links a:hover {
+      background: var(--accent-soft);
+      color: var(--brand);
+    }
+
+    /* 页尾 */
+    .site-footer {
+      background: var(--brand);
+      color: #b8c4d4;
+      padding: 2rem 1.5rem 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .footer-inner {
+      max-width: 1360px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr 1fr;
+      gap: 2rem;
+    }
+
+    .footer-brand {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .footer-brand .brand-text {
+      color: #fff;
+      font-size: 1.1rem;
+    }
+
+    .footer-desc {
+      font-size: 0.78rem;
+      color: #8a9bb0;
+      line-height: 1.6;
+      max-width: 280px;
+    }
+
+    .footer-col h5 {
+      color: #fff;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .footer-col a {
+      display: block;
+      color: #8a9bb0;
+      font-size: 0.75rem;
+      text-decoration: none;
+      padding: 2px 0;
+      transition: color 0.15s;
+    }
+
+    .footer-col a:hover {
+      color: #fff;
+    }
+
+    .footer-bottom {
+      max-width: 1360px;
+      margin: 1.5rem auto 0;
+      padding-top: 1rem;
+      border-top: 1px solid #2f4058;
+      font-size: 0.7rem;
+      color: #6b7a8c;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .footer-bottom .example-note {
+      color: #6b7a8c;
+    }
+
+    /* 搜索无结果提示 */
+    .no-result {
+      display: none;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--muted);
+      background: var(--bg);
+      border-radius: var(--radius-sm);
+      border: 1px dashed var(--line);
+    }
+
+    /* 平板 */
+    @media (max-width: 1024px) {
+      .main-wrapper {
+        grid-template-columns: 1fr;
+      }
+
+      .left-sidebar,
+      .right-sidebar {
+        position: static;
+      }
+
+      .left-sidebar {
+        display: none;
+      }
+
+      .right-sidebar {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 1rem;
+      }
+
+      .footer-inner {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    /* 手机 */
+    @media (max-width: 640px) {
+      .hero h1 {
+        font-size: 1.6rem;
+      }
+
+      .hero-inner {
+        gap: 1.5rem;
+      }
+
+      .hero-visual {
+        flex: 0 0 180px;
+      }
+
+      .header-search input {
+        width: 110px;
+      }
+
+      .header-nav {
+        display: none;
+      }
+
+      .main-wrapper {
+        padding: 1rem 0.75rem 1.5rem;
+        gap: 1rem;
+      }
+
+      .section-card {
+        padding: 1rem;
+      }
+
+      .card-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .right-sidebar {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-inner {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .category-grid {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+      }
+
+      .quote-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .channel-inner {
+        padding: 0 0.75rem;
+      }
+    }
+
+    @media (max-width: 380px) {
+      .card-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero h1 {
+        font-size: 1.4rem;
+      }
+    }
+
+    /* 键盘焦点 */
+    a:focus-visible,
+    button:focus-visible,
+    input:focus-visible,
+    summary:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+
+    /* 滚动条美观 */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: var(--bg);
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #c5cdd8;
+      border-radius: 3px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #a8b4c4;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 吸顶公告条 -->
+  <div class="announce-bar" role="banner">
+    <span>📢 内容安全审核员技能测评新版上线 · 新增 12 个场景模拟题</span>
+    <a href="/#deep-dive">了解详情</a>
+  </div>
+
+  <!-- 吸顶页头 -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand-area">
+        <svg class="brand-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="64" height="64" rx="14" fill="#1e2a3a"/>
+          <path d="M32 10L6 24v16l26 14 26-14V24L32 10z" fill="#c8962e" opacity="0.85"/>
+          <circle cx="32" cy="32" r="9" fill="#ffffff"/>
+          <circle cx="32" cy="32" r="4" fill="#1e2a3a"/>
+        </svg>
+        <span class="brand-text">鉴黄师官方入口</span>
+      </div>
+      <nav class="header-nav" aria-label="主导航">
+        <a href="/#intro">内容简介</a>
+        <a href="/#hot-picks">热门推荐</a>
+        <a href="/#deep-dive">深度解析</a>
+        <a href="/#faq">常见问答</a>
+        <a href="/#comments">用户评论</a>
+        <a href="/#news">相关资讯</a>
+      </nav>
+      <div class="header-search">
+        <input type="text" id="searchInput" placeholder="搜索内容..." aria-label="搜索站内内容">
+        <button type="button" id="searchBtn">搜索</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 频道导航 -->
+  <nav class="channel-nav" aria-label="频道导航">
+    <div class="channel-inner">
+      <a href="/#intro">审核入门</a>
+      <a href="/#hot-picks">热门内容</a>
+      <a href="/#latest-updates">最新动态</a>
+      <a href="/#categories">分类筛选</a>
+      <a href="/#deep-dive">深度解析</a>
+      <a href="/#guide">体验指南</a>
+      <a href="/#faq">常见问答</a>
+      <a href="/#comments">用户评论</a>
+      <a href="/#news">相关资讯</a>
+      <a href="/#recommend">相关推荐</a>
+    </div>
+  </nav>
+
+  <!-- 首屏 -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <span class="hero-badge">内容安全 · 审核技能</span>
+        <h1>鉴黄师官方入口</h1>
+        <p class="hero-desc">聚焦内容审核员日常工作场景与技能成长，提供审核流程、心理建设、兼职平台选择与职业发展路径的实用参考，适合想进入内容安全领域或寻找兼职审核机会的用户阅读。</p>
+        <div class="hero-actions">
+          <a class="btn-primary" href="/#deep-dive">查看深度解析</a>
+          <a class="btn-outline" href="/#faq">常见问题</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <svg viewBox="0 0 260 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="内容审核工作场景示意图">
+          <rect x="20" y="30" width="220" height="150" rx="12" fill="#ffffff" stroke="#d4dce8" stroke-width="1.5"/>
+          <rect x="36" y="48" width="80" height="6" rx="3" fill="#c8962e" opacity="0.5"/>
+          <rect x="36" y="62" width="130" height="4" rx="2" fill="#e2e6ec"/>
+          <rect x="36" y="74" width="110" height="4" rx="2" fill="#e2e6ec"/>
+          <rect x="36" y="90" width="188" height="36" rx="6" fill="#f0f3f8"/>
+          <rect x="44" y="98" width="20" height="20" rx="4" fill="#1e2a3a" opacity="0.15"/>
+          <rect x="72" y="98" width="80" height="4" rx="2" fill="#c8962e" opacity="0.4"/>
+          <rect x="72" y="108" width="60" height="3" rx="1.5" fill="#d4dce8"/>
+          <rect x="36" y="140" width="90" height="4" rx="2" fill="#e2e6ec"/>
+          <rect x="36" y="152" width="140" height="4" rx="2" fill="#e2e6ec"/>
+          <circle cx="220" cy="168" r="18" fill="#c8962e" opacity="0.15"/>
+          <path d="M214 168l4 4 8-8" stroke="#c8962e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- 三栏主内容区 -->
+  <div class="main-wrapper">
+
+    <!-- 左栏：频道导航 + 标签索引 -->
+    <aside class="left-sidebar" aria-label="左侧频道导航">
+      <div class="sidebar-title">内容导航</div>
+      <ul class="sidebar-nav">
+        <li><a href="/#intro" class="active">内容简介</a></li>
+        <li><a href="/#hot-picks">热门内容推荐</a></li>
+        <li><a href="/#latest-updates">最新更新动态</a></li>
+        <li><a href="/#categories">分类入口</a></li>
+        <li><a href="/#deep-dive">深度解析</a></li>
+        <li><a href="/#guide">体验指南</a></li>
+        <li><a href="/#faq">常见问答</a></li>
+        <li><a href="/#comments">用户评论</a></li>
+        <li><a href="/#news">相关资讯</a></li>
+        <li><a href="/#recommend">相关推荐</a></li>
+        <li><a href="/#quotes">创作者证言</a></li>
+      </ul>
+      <div class="sidebar-title" style="margin-top:0.75rem;">热门标签</div>
+      <div class="sidebar-tags">
+        <a href="/#hot-picks">审核流程</a>
+        <a href="/#hot-picks">兼职平台</a>
+        <a href="/#deep-dive">心理建设</a>
+        <a href="/#faq">入门条件</a>
+        <a href="/#categories">内容分级</a>
+        <a href="/#deep-dive">职业发展</a>
+        <a href="/#recommend">技能测评</a>
+      </div>
+    </aside>
+
+    <!-- 中栏：正文板块 -->
+    <main class="center-main">
+
+      <!-- 1. 内容简介 / 平台介绍 -->
+      <section class="section-card" id="intro">
+        <h2 class="section-title">内容简介</h2>
+        <p style="font-size:0.88rem;color:var(--ink-soft);line-height:1.7;margin-bottom:0.6rem;">鉴黄师官方入口是一个围绕内容安全审核职业的知识型门户，面向希望了解鉴黄师工作内容、寻找鉴黄师兼职平台或准备进入审核行业的用户。这里不提供直接上岗通道，而是将审核流程、技能要求、心理建设与行业动态整理成可检索的参考信息，帮助读者建立对内容审核岗位的完整认知。</p>
+        <p style="font-size:0.85rem;color:var(--ink-soft);line-height:1.7;margin-bottom:0.6rem;">内容覆盖图文审核、视频审核、直播巡检等常见业务类型，区分全职审核员与兼职审核员的差异，并讨论不同平台在培训机制、排班方式与结算周期上的选择依据。对于想利用碎片时间参与内容安全工作的用户，可以重点关注兼职平台对比与入门条件相关板块；对于考虑长期发展的读者，深度解析与职业路径内容提供了更系统的梳理。</p>
+        <p style="font-size:0.85rem;color:var(--ink-soft);line-height:1.7;">页面同时整理了审核员常见的心理压力来源与应对方式，包括反复接触违规内容带来的情绪消耗、夜班排班对作息的影响，以及如何在工作中建立边界感。这些内容以实际场景为出发点，不夸大岗位收入，也不美化工作强度，力求呈现一份可对照自身情况做判断的参考材料。</p>
+      </section>
+
+      <!-- 2. 热门内容推荐 -->
+      <section class="section-card" id="hot-picks">
+        <h2 class="section-title">热门内容推荐</h2>
+        <p class="section-subtitle">根据近期阅读与搜索热度整理，涵盖审核入门、兼职选择与心理调适方向。</p>
+        <div class="card-grid" id="hotCardGrid">
+          <article class="content-card">
+            <span class="card-tag">入门必读</span>
+            <h3 class="card-title">图文审核员第一天做什么</h3>
+            <p class="card-desc">从登录审核后台、熟悉违规类型到完成首批工单，拆解新人首日的实际工作流程与常见卡点。</p>
+            <div class="card-meta"><span>🔥 热度 2.4k</span><span>⭐ 4.8</span></div>
+          </article>
+          <article class="content-card">
+            <span class="card-tag">兼职对比</span>
+            <h3 class="card-title">四类鉴黄师兼职平台横向对比</h3>
+            <p class="card-desc">按培训周期、结算方式、排班自由度三个维度比较常见兼职渠道，帮助判断哪种更适合碎片时间。</p>
+            <div class="card-meta"><span>🔥 热度 1.9k</span><span>⭐ 4.6</span></div>
+          </article>
+          <article class="content-card">
+            <span class="card-tag">心理建设</span>
+            <h3 class="card-title">审核员情绪耗竭的早期信号</h3>
+            <p class="card-desc">列举注意力下降、共情疲劳、回避社交等六个常见信号，并给出具体的调整建议。</p>
+            <div class="card-meta"><span>🔥 热度 1.7k</span><span>⭐ 4.7</span></div>
+          </article>
+          <article class="content-card">
+            <span class="card-tag">技能提升</span>
+            <h3 class="card-title">内容分级判断的五个关键维度</h3>
+            <p class="card-desc">从暴露程度、场景暗示、文字描述、传播意图与受众年龄切入，建立稳定的判断框架。</p>
+            <div class="card-meta"><span>🔥 热度 2.1k</span><span>⭐ 4.9</span></div>
+          </article>
+          <article class="content-card">
+            <span class="card-tag">职业发展</span>
+            <h3 class="card-title">从审核员到质检岗需要哪些积累</h3>
+            <p class="card-desc">梳理质检岗对准确率、规则理解与培训带教能力的要求，给出可操作的成长路径。</p>
+            <div class="card-meta"><span>🔥 热度 1.5k</span><span>⭐ 4.5</span></div>
+          </article>
+          <article class="content-card">
+            <span class="card-tag">场景模拟</span>
+            <h3 class="card-title">直播巡检常见违规场景十二例</h3>
+            <p class="card-desc">覆盖着装边缘、动作暗示、语音擦边等典型场景，附带判断思路与处置建议。</p>
+            <div class="card-meta"><span>🔥 热度 1.8k</span><span>⭐ 4.6</span></div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 3. 最新更新 / 热门动态 -->
+      <section class="section-card" id="latest-updates">
+        <h2 class="section-title">最新更新动态</h2>
+        <p class="section-subtitle">近期新增或更新的审核相关条目，按时间排列。</p>
+        <ul class="update-list">
+          <li><span class="update-time">06-12</span><div><strong>兼职审核结算周期对比更新</strong><p>补充了三个平台按周结算与按月结算的到账时间说明。</p></div></li>
+          <li><span class="update-time">06-10</span><div><strong>视频审核岗前培训清单</strong><p>新增镜头语言基础、违规片段截取与工单填写规范三项内容。</p></div></li>
+          <li><span class="update-time">06-08</span><div><strong>夜间排班作息调整建议</strong><p>整理了轮班审核员在睡眠质量与饮食安排上的实操经验。</p></div></li>
+          <li><span class="update-time">06-05</span><div><strong>审核员职业资格认证讨论</strong><p>梳理目前行业内常见的培训证书类型与用人方实际关注点。</p></div></li>
+          <li><span class="update-time">06-03</span><div><strong>内容安全审核工具使用心得</strong><p>汇总快捷键、批量标记与误判申诉三个环节的效率技巧。</p></div></li>
+          <li><span class="update-time">06-01</span><div><strong>图文与视频审核难度对比</strong><p>从信息密度、判断耗时与心理负荷角度分析两类业务的差异。</p></div></li>
+          <li><span class="update-time">05-29</span><div><strong>新人第一周常见误判整理</strong><p>列出边界模糊场景下的高频误判类型及复核注意事项。</p></div></li>
+          <li><span class="update-time">05-26</span><div><strong>远程审核工作环境搭建</strong><p>涉及双屏配置、网络稳定性要求与隐私保护措施。</p></div></li>
+        </ul>
+      </section>
+
+      <!-- 4. 分类入口 -->
+      <section class="section-card" id="categories">
+        <h2 class="section-title">分类入口</h2>
+        <p class="section-subtitle">按审核业务类型与关注方向划分，点击进入对应内容区域。</p>
+        <div class="category-grid">
+          <a href="/#hot-picks" class="category-item">图文审核</a>
+          <a href="/#hot-picks" class="category-item">视频审核</a>
+          <a href="/#hot-picks" class="category-item">直播巡检</a>
+          <a href="/#deep-dive" class="category-item">兼职平台</a>
+          <a href="/#deep-dive" class="category-item">心理建设</a>
+          <a href="/#faq" class="category-item">入门条件</a>
+          <a href="/#recommend" class="category-item">技能测评</a>
+          <a href="/#latest-updates" class="category-item">行业动态</a>
+        </div>
+      </section>
+
+      <!-- 5. 深度解析正文 -->
+      <section class="section-card deep-dive" id="deep-dive">
+        <h2 class="section-title">深度解析：内容审核员的日常工作与成长路径</h2>
+        <p>鉴黄师官方入口所讨论的内容审核工作，在实际岗位中通常被称为内容安全审核员或信息审核专员。这个岗位的核心任务是依据平台规则，对用户上传的图文、视频、直播流进行合规判断，区分正常内容、低俗擦边内容与明确违规内容，并给出相应的处置标记。不同平台对审核精度和时效的要求不同，但基本的工作逻辑是一致的：快速识别、准确分类、记录理由。</p>
+
+        <h3>审核流程一般包含哪些环节</h3>
+        <p>一条内容从进入审核队列到完成处置，通常经过机器初筛、人工复核、质检抽查三个阶段。机器初筛负责过滤明确违规的样本，人工复核处理边界模糊的案例，质检则对已审内容进行抽样回查。对于刚入门的审核员来说，大部分时间花在人工复核环节，需要对照规则文档逐项判断。熟悉规则之后，判断速度会明显提升，但准确率仍然是考核的第一指标。</p>
+        <ul>
+          <li><strong>机器初筛：</strong>基于图像识别与文本匹配标记高风险内容，减少人工全量浏览的压力。</li>
+          <li><strong>人工复核：</strong>对机器标记为疑似或人工抽检到的内容逐条判断，填写违规类型与理由。</li>
+          <li><strong>质检抽查：</strong>由质检岗对已处理工单进行抽样复核，统计准确率并反馈共性问题。</li>
+        </ul>
+
+        <h3>兼职审核与全职审核有什么区别</h3>
+        <p>兼职审核通常以远程形式进行，按件或按小时计酬，排班相对灵活，适合利用碎片时间增加收入的人群。全职审核则往往有固定的班次安排、更系统的培训体系和更明确的晋升通道。两者对判断准确率的要求接近，但全职岗位在规则更新培训、心理支持与团队协作方面的资源通常更充分。选择兼职还是全职，需要结合个人可投入的时间、对收入稳定性的要求以及长期职业规划来考虑。</p>
+
+        <h3>审核员如何应对心理压力</h3>
+        <p>长期接触违规内容可能带来情绪消耗，这是内容审核岗位无法回避的职业特点。常见的应对方式包括：严格控制单次审核时长，每隔一段时间离开屏幕进行短暂休息；与同事建立案例讨论习惯，把模糊判断说出来而不是独自消化；在工作之外保持规律的运动与社交活动，帮助大脑从高警觉状态中恢复。如果出现持续的睡眠问题或情绪低落，及时寻求专业心理支持是合理且必要的选择。</p>
+
+        <h3>从入门到进阶的积累方向</h3>
+        <p>入门阶段以熟悉规则和提升判断准确率为主，建议整理自己的误判记录，定期回看质检反馈。进入稳定期后，可以尝试理解规则背后的制定逻辑，关注行业法规与平台政策的更新，逐步从执行者向规则理解者过渡。进一步的发展方向包括质检岗、培训岗、策略运营岗等，这些岗位对规则体系、数据分析与沟通表达能力有更高要求，但基础仍然建立在扎实的一线审核经验之上。</p>
+      </section>
+
+      <!-- 6. 体验指南 -->
+      <section class="section-card" id="guide">
+        <h2 class="section-title">体验指南</h2>
+        <p style="font-size:0.85rem;color:var(--ink-soft);line-height:1.7;margin-bottom:0.6rem;">本页按主题板块组织内容，顶部频道导航可快速跳转至内容简介、热门推荐、深度解析、常见问答等区域。左侧栏提供分类索引与热门标签，右侧栏包含页内目录、热门条目与延伸阅读入口，方便在阅读过程中随时切换关注点。</p>
+        <p style="font-size:0.85rem;color:var(--ink-soft);line-height:1.7;margin-bottom:0.6rem;">搜索框支持对页面内可见内容进行关键词查找，输入后点击搜索或按回车，匹配的卡片与列表项会高亮显示，无匹配结果时会出现提示。分类入口目前作为栏目定位链接使用，点击后跳转至对应内容区域。FAQ 采用折叠问答形式，点击问题即可展开答案，再次点击收起。</p>
+        <p style="font-size:0.85rem;color:var(--ink-soft);line-height:1.7;">在手机端，频道导航转为横向滚动条，左右滑动可查看全部频道；左右侧栏内容会依次排列在主内容之后，保持阅读顺序连贯。页面未设置登录、收藏或下载功能，所有内容可直接阅读，无需额外操作。</p>
+      </section>
+
+      <!-- 7. FAQ -->
+      <section class="section-card" id="faq">
+        <h2 class="section-title">常见问答</h2>
+        <p class="section-subtitle">围绕审核入门、兼职选择与工作体验的常见问题。</p>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>鉴黄师类型的工作适合什么人做？</summary>
+            <div class="faq-answer">适合对内容安全有基本认知、能接受长时间面对屏幕、具备稳定判断力的人群。兼职方向更适合时间碎片化、希望灵活安排工作节奏的人；全职方向则适合考虑在内容安全领域长期发展、愿意接受系统培训与排班管理的求职者。对违规内容较为敏感或近期情绪状态不佳的人，建议谨慎评估后再决定是否进入该领域。</div>
+          </details>
+          <details class="faq-item">
+            <summary>内容审核兼职一般多久结算一次？</summary>
+            <div class="faq-answer">不同平台差异较大，常见的有按周结算、按双周结算和按月结算三种。按件计酬的平台通常在工单审核通过后的固定周期内统一打款，按小时计酬的平台则多与考勤周期挂钩。选择兼职渠道时，除了关注单价，也建议确认结算周期、提现门槛和是否有明确的工单申诉机制。</div>
+          </details>
+          <details class="faq-item">
+            <summary>没有经验可以申请审核员岗位吗？</summary>
+            <div class="faq-answer">多数平台对一线审核员没有硬性的经验要求，入职后会提供规则培训和试审阶段。真正影响录用与后续表现的因素，主要是对规则的理解速度、判断的稳定性以及能否适应排班节奏。如果有内容运营、社区管理或客服相关经历，在申请时可以作为理解用户场景的加分项。</div>
+          </details>
+          <details class="faq-item">
+            <summary>图文审核和视频审核哪个难度更高？</summary>
+            <div class="faq-answer">两者难点不同。图文审核信息密度高，需要在文字与图片之间交叉判断，边界案例多；视频审核需要逐段查看画面与声音，单条内容耗时更长，对注意力的持续要求更高。选择方向时可以结合自己对静态信息还是动态信息的处理习惯来判断，也可以先从图文审核入手，熟悉规则后再转向视频审核。</div>
+          </details>
+          <details class="faq-item">
+            <summary>审核员长期看违规内容会不会有心理影响？</summary>
+            <div class="faq-answer">重复接触违规内容确实可能带来情绪消耗或共情疲劳，这是该岗位普遍存在的职业压力来源。多数正规平台会提供心理支持资源，但个人的主动调节同样重要，包括控制连续审核时长、保持工作与休息的边界、与同事进行案例讨论等。如果出现持续的情绪困扰，应及时寻求专业帮助，不必独自承受。</div>
+          </details>
+          <details class="faq-item">
+            <summary>审核岗位有晋升空间吗？</summary>
+            <div class="faq-answer">有。一线审核员在积累足够的准确率与规则理解之后，可以向质检岗、培训岗或策略运营岗发展。质检岗侧重抽样复核与问题反馈，培训岗负责新人带教与规则讲解，策略运营岗则参与规则制定与审核流程优化。晋升通常看重的是长期稳定的审核质量、对规则的深入理解以及沟通协作能力，而不是单纯的工作年限。</div>
+          </details>
+        </div>
+      </section>
+
+      <!-- 8. 用户评论 -->
+      <section class="section-card" id="comments">
+        <h2 class="section-title">用户评论</h2>
+        <p class="section-subtitle">来自不同背景读者的留言，包含正面反馈与中性讨论。</p>
+        <div class="comment-list">
+          <div class="comment-item"><div class="comment-header"><span class="comment-avatar">林</span><span class="comment-name">林间小鹿</span><span class="comment-date">06-12</span></div><p class="comment-text">兼职审核做了三个月，最有用的建议确实是控制单次时长，连续看两小时以上判断力会明显下降。</p></div>
+          <div class="comment-item"><div class="comment-header"><span class="comment-avatar">陈</span><span class="comment-name">陈默</span><span class="comment-date">06-11</span></div><p class="comment-text">图文审核和视频审核的对比写得比较客观，没有一味说哪个好，而是讲了难点在哪，对选择方向有帮助。</p></div>
+          <div class="comment-item"><div class="comment-header"><span class="comment-avatar">周</span><span class="comment-name">周末不加班</span><span class="comment-date">06-10</span></div><p class="comment-text">结算周期那部分挺实用，之前找兼职只关注单价，忽略了到账时间，看完会重新考虑。</p></div>
+          <div class="comment-item"><div class="comment-header"><span class="comment-avatar">赵</span><span class="comment-name">赵四喜</span><span class="comment-date">06-09</span></div><p class="comment-text">心理建设部分建议再展开一些，夜班对作息的影响比想象中大，希望有更多调整经验分享。</p></div>
+          <div class="comment-item"><div class="comment-header"><span class="comment-avatar">吴</span><span class="comment-name">吴桐</span><span class="comment-date">06-08</span></div><p class="comment-text">质检岗的要求整理得比较清楚，准确率确实是硬指标，带教能力这块之前没太注意。</p></div>
+          <div class="comment-item"><div class="comment-header"><span class="comment-avatar">郑</span><span class="comment-name">郑在输入</span><span class="comment-date">06-07</span></div><p class="comment-text">没有夸大收入这一点挺好，有些平台宣传兼职轻松月入过万，实际单价和工单量根本对不上。</p></div>
+          <div class="comment-item"><div class="comment-header"><span class="comment-avatar">孙</span><span class="comment-name">孙一宁</span><span class="comment-date">06-06</span></div><p class="comment-text">FAQ 里“没有经验可以申请吗”这个问题问到点子上了，我就是零经验入行的，培训比想象中系统。</p></div>
+          <div class="comment-item"><div class="comment-header"><span class="comment-avatar">李</span><span class="comment-name">李子树下</span><span class="comment-date">06-05</span></div><p class="comment-text">直播巡检的十二个场景例子很具体，比看规则文档直观多了，建议多出一些这类内容。</p></div>
+          <div class="comment-item"><div class="comment-header"><span class="comment-avatar">王</span><span class="comment-name">王不留行</span><span class="comment-date">06-04</span></div><p class="comment-text">内容分级判断的五个维度帮我理清了思路，之前判断边界内容全靠感觉，现在有框架了。</p></div>
+          <div class="comment-item"><div class="comment-header"><span class="comment-avatar">黄</span><span class="comment-name">黄小仙</span><span class="comment-date">06-03</span></div><p class="comment-text">我是做客服转审核的，用户场景理解确实有用，但规则熟悉还是得从头来，没有捷径。</p></div>
+          <div class="comment-item"><div class="comment-header"><span class="comment-avatar">何</span><span class="comment-name">何同学</span><span class="comment-date">06-02</span></div><p class="comment-text">页面结构挺清楚的，找兼职对比和入门条件很方便，搜索也能用，不用一直翻。</p></div>
+          <div class="comment-item"><div class="comment-header"><span class="comment-avatar">方</span><span class="comment-name">方糖</span><span class="comment-date">06-01</span></div><p class="comment-text">希望增加一些关于审核工具使用效率的内容，快捷键和批量操作真的能省不少时间。</p></div>
+          <div class="comment-item"><div class="comment-header"><span class="comment-avatar">马</span><span class="comment-name">马大哈</span><span class="comment-date">05-30</span></div><p class="comment-text">远程工作环境搭建那块有参考价值，双屏确实比单屏效率高，网络稳定也很关键。</p></div>
+          <div class="comment-item"><div class="comment-header"><span class="comment-avatar">刘</span><span class="comment-name">刘小海</span><span class="comment-date">05-29</span></div><p class="comment-text">整体内容比较克制，没有把审核员包装成轻松高薪的职业，这一点值得肯定。</p></div>
+          <div class="comment-item"><div class="comment-header"><span class="comment-avatar">顾</span><span class="comment-name">顾言</span><span class="comment-date">05-28</span></div><p class="comment-text">新人第一周常见误判整理很有共鸣，边界模糊的内容刚开始真的容易判错，复核反馈很重要。</p></div>
+          <div class="comment-item"><div class="comment-header"><span class="comment-avatar">沈</span><span class="comment-name">沈知秋</span><span class="comment-date">05-27</span></div><p class="comment-text">从审核员到质检岗的路径写得很实在，没有画大饼，准确率和规则理解确实是基础。</p></div>
+        </div>
+      </section>
+
+      <!-- 9. 相关资讯 -->
+      <section class="section-card" id="news">
+        <h2 class="section-title">相关资讯</h2>
+        <p class="section-subtitle">内容安全与审核行业的相关动态与观察。</p>
+        <div class="news-list">
+          <div class="news-item"><span class="news-date">06-12</span><div class="news-content"><strong>内容审核员技能标准讨论升温</strong><p>多家平台近期更新了审核岗位的培训大纲，对边界场景判断与心理支持提出更细要求。</p></div></div>
+          <div class="news-item"><span class="news-date">06-09</span><div class="news-content"><strong>远程审核岗位需求保持增长</strong><p>图文与短视频审核的远程兼职岗位数量环比上升，结算方式趋于多样化。</p></div></div>
+          <div class="news-item"><span class="news-date">06-06</span><div class="news-content"><strong>审核员心理支持资源受关注</strong><p>行业讨论聚焦长时间接触违规内容带来的情绪影响，部分平台增设定期心理辅导。</p></div></div>
+          <div class="news-item"><span class="news-date">06-02</span><div class="news-content"><strong>直播巡检规则细化趋势明显</strong><p>针对着装暗示、语音擦边等场景，平台陆续推出更具体的判断指引与案例库。</p></div></div>
+          <div class="news-item"><span class="news-date">05-28</span><div class="news-content"><strong>审核工具效率优化成为新人关注点</strong><p>快捷键、批量标记与误判申诉流程的熟练度，直接影响兼职审核的实际时薪。</p></div></div>
+          <div class="news-item"><span class="news-date">05-25</span><div class="news-content"><strong>兼职审核结算透明度受讨论</strong><p>用户在选择兼职平台时，对结算周期、工单申诉机制与提现门槛的关注度上升。</p></div></div>
+        </div>
+      </section>
+
+      <!-- 10. 相关推荐 -->
+      <section class="section-card" id="recommend">
+        <h2 class="section-title">相关推荐</h2>
+        <p class="section-subtitle">按具体内容方向整理的可搜索标签，点击可查看页面内相关板块。</p>
+        <div class="rec-tags">
+          <a href="/#hot-picks">图文审核入门流程</a>
+          <a href="/#hot-picks">视频审核判断技巧</a>
+          <a href="/#hot-picks">直播巡检场景清单</a>
+          <a href="/#deep-dive">兼职平台结算对比</a>
+          <a href="/#deep-dive">审核员心理调适方法</a>
+          <a href="/#faq">零经验入行条件</a>
+          <a href="/#faq">审核岗位晋升路径</a>
+          <a href="/#latest-updates">内容安全行业动态</a>
+        </div>
+      </section>
+
+      <!-- 11. 创作者证言 / 引语 -->
+      <section class="section-card" id="quotes">
+        <h2 class="section-title">创作者证言</h2>
+        <p class="section-subtitle">来自内容安全从业者的经验分享（示例身份与表述）。</p>
+        <div class="quote-grid">
+          <div class="quote-card">
+            “判断边界内容最怕的是凭感觉，建立自己的判断清单之后，误判率明显降下来了。”
+            <div class="quote-author">—— 某平台图文审核员 · 从业两年</div>
+          </div>
+          <div class="quote-card">
+            “兼职审核让我在照顾家庭的同时有一份收入，但前提是找到结算稳定的渠道，不能只看单价。”
+            <div class="quote-author">—— 远程兼职审核员 · 从业一年</div>
+          </div>
+          <div class="quote-card">
+            “心理建设不是一句空话，我们组每周有一次案例讨论会，把压抑的案例说出来，会好很多。”
+            <div class="quote-author">—— 视频审核组长 · 从业四年</div>
+          </div>
+          <div class="quote-card">
+            “从审核员转到质检岗，最大的变化是从‘判对’变成‘帮别人判对’，规则理解要更深一层。”
+            <div class="quote-author">—— 质检岗审核员 · 从业三年</div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- 右栏：辅助阅读 -->
+    <aside class="right-sidebar" aria-label="右侧辅助阅读">
+      <div class="sidebar-card">
+        <h4>页内目录</h4>
+        <ul class="toc-list">
+          <li><a href="/#intro">内容简介</a></li>
+          <li><a href="/#hot-picks">热门内容推荐</a></li>
+          <li><a href="/#latest-updates">最新更新动态</a></li>
+          <li><a href="/#categories">分类入口</a></li>
+          <li><a href="/#deep-dive">深度解析</a></li>
+          <li><a href="/#guide">体验指南</a></li>
+          <li><a href="/#faq">常见问答</a></li>
+          <li><a href="/#comments">用户评论</a></li>
+          <li><a href="/#news">相关资讯</a></li>
+          <li><a href="/#recommend">相关推荐</a></li>
+          <li><a href="/#quotes">创作者证言</a></li>
+        </ul>
+      </div>
+      <div class="sidebar-card">
+        <h4>热门条目</h4>
+        <ul class="hot-list">
+          <li><span class="hot-index top3">1</span><a href="/#hot-picks">图文审核员第一天做什么</a></li>
+          <li><span class="hot-index top3">2</span><a href="/#hot-picks">四类鉴黄师兼职平台横向对比</a></li>
+          <li><span class="hot-index top3">3</span><a href="/#hot-picks">内容分级判断的五个关键维度</a></li>
+          <li><span class="hot-index">4</span><a href="/#hot-picks">审核员情绪耗竭的早期信号</a></li>
+          <li><span class="hot-index">5</span><a href="/#hot-picks">直播巡检常见违规场景十二例</a></li>
+          <li><span class="hot-index">6</span><a href="/#hot-picks">从审核员到质检岗需要哪些积累</a></li>
+        </ul>
+      </div>
+      <div class="sidebar-card">
+        <h4>延伸阅读</h4>
+        <div class="extend-links">
+          <a href="/#deep-dive">审核流程的机器初筛与人工复核</a>
+          <a href="/#deep-dive">兼职审核与全职审核的差异</a>
+          <a href="/#deep-dive">长期接触违规内容的应对方式</a>
+          <a href="/#faq">零经验入行的常见问题</a>
+          <a href="/#guide">页面内容查找与筛选说明</a>
+        </div>
+      </div>
+    </aside>
+
+  </div>
+
+  <!-- 页尾 -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="brand-text">鉴黄师官方入口</span>
+        <p class="footer-desc">聚焦内容安全审核职业的参考型门户，整理审核流程、兼职选择与心理建设信息，帮助读者建立对内容审核工作的完整认知。</p>
+      </div>
+      <div class="footer-col">
+        <h5>内容板块</h5>
+        <a href="/#intro">内容简介</a>
+        <a href="/#hot-picks">热门内容推荐</a>
+        <a href="/#latest-updates">最新更新动态</a>
+        <a href="/#categories">分类入口</a>
+      </div>
+      <div class="footer-col">
+        <h5>深入阅读</h5>
+        <a href="/#deep-dive">深度解析</a>
+        <a href="/#guide">体验指南</a>
+        <a href="/#faq">常见问答</a>
+        <a href="/#quotes">创作者证言</a>
+      </div>
+      <div class="footer-col">
+        <h5>互动与资讯</h5>
+        <a href="/#comments">用户评论</a>
+        <a href="/#news">相关资讯</a>
+        <a href="/#recommend">相关推荐</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 鉴黄师官方入口 · 内容仅供学习参考</span>
+      <span class="example-note">部分内容为示例数据，仅用于展示页面结构</span>
+    </div>
+  </footer>
+
+  <!-- 轻量内联脚本：搜索高亮与无结果反馈 -->
+  <script>
+    (function() {
+      const searchInput = document.getElementById('searchInput');
+      const searchBtn = document.getElementById('searchBtn');
+      const hotGrid = document.getElementById('hotCardGrid');
+      const noResult = document.createElement('div');
+      noResult.className = 'no-result';
+      noResult.textContent = '没有找到匹配的内容，请尝试其他关键词。';
+      noResult.id = 'noResultMsg';
+      if (hotGrid && hotGrid.parentNode) {
+        hotGrid.parentNode.insertBefore(noResult, hotGrid.nextSibling);
+      }
+
+      function resetHighlights() {
+        document.querySelectorAll('.content-card').forEach(card => {
+          card.style.backgroundColor = '';
+          card.style.borderColor = '';
+        });
+        const existingMsg = document.getElementById('noResultMsg');
+        if (existingMsg) existingMsg.style.display = 'none';
+      }
+
+      function performSearch() {
+        const keyword = searchInput.value.trim().toLowerCase();
+        resetHighlights();
+        if (!keyword) return;
+
+        const cards = document.querySelectorAll('.content-card');
+        let matchCount = 0;
+
+        cards.forEach(card => {
+          const text = card.textContent.toLowerCase();
+          if (text.includes(keyword)) {
+            card.style.backgroundColor = '#f5e9d4';
+            card.style.borderColor = '#c8962e';
+            matchCount++;
+          }
+        });
+
+        const existingMsg = document.getElementById('noResultMsg');
+        if (matchCount === 0 && existingMsg) {
+          existingMsg.style.display = 'block';
+        } else if (existingMsg) {
+          existingMsg.style.display = 'none';
+        }
+      }
+
+      if (searchBtn) {
+        searchBtn.addEventListener('click', performSearch);
+      }
+      if (searchInput) {
+        searchInput.addEventListener('keydown', function(e) {
+          if (e.key === 'Enter') {
+            e.preventDefault();
+            performSearch();
+          }
+        });
+        searchInput.addEventListener('input', function() {
+          if (this.value.trim() === '') {
+            resetHighlights();
+          }
+        });
+      }
+    })();
+  </script>
+
+</body>
+            </html>
